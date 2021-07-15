@@ -1,0 +1,188 @@
+
+h1, h2, h3, h4, h5{
+  font-family: "Montserrat"
+}
+
+h2{
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+h3{
+  font-size: 1.4rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  height: 1.5;
+}
+
+#cont{
+  padding: 3% 15%;
+}
+
+#title{
+
+  padding-bottom: 11%;
+}
+#title .continer-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+.title-padding{
+  padding-top: 4.5rem;
+}
+
+/* Title-image */
+
+.title-image{
+  width:23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+.continer-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+.white-section{
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.download-button{
+  margin : 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+#features{
+  position: relative;
+  padding: 7% 15%;
+  /* z-index: 1; */
+  /* works even when no z index cause below image in HTML */
+}
+
+.feature-heading{
+  font-size: 1.4rem;
+}
+
+
+
+.icon{
+  color: #ef8172;
+  align-items: center;
+  padding: 5%;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  padding: 6%;
+  background-color: #ef8172;
+  line-height: 1.5;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.col-section{
+  padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+
+/* Footer */
+
+
+
+.footer-icon{
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 1000px) {
+  .title-image{
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
